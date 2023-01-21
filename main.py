@@ -16,7 +16,13 @@ class Bike(AutoMobile):
     def m2():
         print("------inside Bike")
 
-    
+class Auto(AutoMobile):
+
+    def __init__(self):
+        super().__init__()
+
+    def m2():
+        print("------inside Bike")
 
 class Car(AutoMobile):
 
